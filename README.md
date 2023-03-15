@@ -37,7 +37,7 @@ This assumes you already have a working Go environment, if not please see
 `go get` *will always pull the latest tagged release from the master branch.*
 
 ```sh
-go get github.com/bwmarrin/discordgo
+go get github.com/Casper-Mars/discordgo
 ```
 
 ### Usage
