@@ -150,6 +150,9 @@ type Message struct {
 
 	// An array of Sticker objects, if any were sent.
 	StickerItems []*Sticker `json:"sticker_items"`
+
+	// Can be used to verify a message was sent (up to 25 characters). Value will appear in the MessageCreate event.
+	Nonce string `json:"nonce"`
 }
 
 // UnmarshalJSON is a helper function to unmarshal the Message.
